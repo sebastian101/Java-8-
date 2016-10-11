@@ -1,0 +1,49 @@
+No puede existir un else sin un if, pero lo contrario si
+
+tres tipos de if
+&& evalua si la primera es verdadera
+& evalua la siguiente
+Clase: Representación en codigo de algo real
+Instancia                               Objeto: Representación en memoria de esa clase
+
+los arreglos en java deben ser finitos
+LENGHT
+
+
+Instancia ers creación, espacio en memoria
+Arrays
+
+
+los arreglos no funcionan igual que las variables, tener en cuanta los valores primitivos
+
+
+Los objetos siempre tienen que tener el mismo tipo de valor ejmple: un double no puede contener un objeto int
+
+
+
+Ciclos:
+- Para arreglos
+- Recorrer listas
+
+For mejorado
+
+
+Definimos variable con el mismo tipo de dato
+
+For (String name : names){
+	Syso(name);
+}
+
+El for de adentor se ejecuta mas rapido
+
+breaks y continue
+Label o etiquetas en los fors.
+
+unreacheable statement , codigo despues de un break o un continue
+
+
+
+Memoria
+
+Stack: variables locales, referencias
+Heap:Objetos
