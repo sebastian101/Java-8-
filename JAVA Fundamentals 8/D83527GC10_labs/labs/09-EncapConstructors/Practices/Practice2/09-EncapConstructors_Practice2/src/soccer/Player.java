@@ -16,6 +16,13 @@ public class Player {
     
     /* Practice 9-2. Add the constructor here */
     
+    public Player(String playerName){        
+        this.playerName = playerName;    
+    }
+    
+    public Player(){        
+         
+    }
 
     /**
      * @return the playerName

@@ -1,7 +1,8 @@
 
-package ex10_3_exercise;
+package ex10_2_exercise;
 
 public class Order {
+
     static final char CORP = 'C';
     static final char PRIVATE = 'P';
     static final char NONPROFIT = 'N';
@@ -23,27 +24,43 @@ public class Order {
         return Double.toString(discount) + "%";
     }
 
-    public void calcDiscount() {
-        // Replace the if logic with a switch statement.
+    // Code the calcDiscount method.
+    public void calcDiscount() {	
+	
+	switch(custType) {
+	
+	case 'N':		
+		if (total > 900){	
+			discount = 10.0;	
+		}
+		else{ 
+			discount = 5.0;
+		}
+		break;
 
-        if (custType == NONPROFIT) {
-            if (total > 900) {
-                discount = 10.00;
-            } else {
-                discount = 5.00;
-            }
-        } else if (custType == PRIVATE) {
-            if (total > 900) {
-                discount = 7.00;
-            } else {
-                discount = 0.00;
-            }
-        } else if (custType == CORP) {
-            if (total < 500) {
-                discount = 8.00;
-            } else {
-                discount = 5.00;
-            }
-        }  
+	case 'P':
+		if (total > 900){	
+			discount = 7.0;	
+		}
+		else{ 
+			discount = 0.0;
+		}
+		break;
+
+	case 'C':
+		if (total < 500){	
+			discount = 8.0;	
+		}
+		else{ 
+			discount = 5.0;
+		}
+		break;
+
+	default:
+		System.out.println("Enter a valid type of Customer");
+		break;		
+	}
+	
+         
     }
 }

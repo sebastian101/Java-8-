@@ -20,6 +20,11 @@ public class Game {
     
     /* Practice 9-2. Add constructor here */
     
+    public Game(Team homeTeam, Team awayTeam){
+        this.homeTeam = homeTeam;
+        this.awayTeam = awayTeam;
+    }
+    
     public void playGame(int maxGoals) {
         int numberOfGoals = (int)(Math.random() * maxGoals + 1);
         Goal[] theGoals = new Goal[numberOfGoals];

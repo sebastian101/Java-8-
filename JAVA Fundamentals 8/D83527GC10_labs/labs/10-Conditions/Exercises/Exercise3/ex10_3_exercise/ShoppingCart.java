@@ -1,5 +1,5 @@
 
-package ex10_3_exercise;
+package ex10_2_exercise;
 
 public class ShoppingCart {
     public static void main(String args[]){
