@@ -14,6 +14,13 @@ public class ShoppingCart {
     // Use a standard for loop to iterate through the items array, adding up the total price
     //    Skip any items that are back ordered.  Display the Shopping Cart total.
     public void displayTotal(){
+	for (int i=1; items < 3;  i++){
+		if(){
+			
+		}
+
+	}
+    
         
     }
 }
