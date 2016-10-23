@@ -14,6 +14,7 @@ public class ShoppingCart {
     // Use a standard for loop to iterate through the items array, adding up the total price
     //    Skip any items that are back ordered.  Display the Shopping Cart total.
     public void displayTotal(){
+<<<<<<< HEAD
 	double total = 0;
 	for ( int i = 0; i < 3; i++){
 		if (items[i].isBackOrdered())
@@ -21,5 +22,15 @@ public class ShoppingCart {
 	total += items[i].getPrice();	
 	}
         System.out.println("The order is: " + total);	
+=======
+	for (int i=1; items < 3;  i++){
+		if(){
+			
+		}
+
+	}
+    
+        
+>>>>>>> origin/master
     }
 }
