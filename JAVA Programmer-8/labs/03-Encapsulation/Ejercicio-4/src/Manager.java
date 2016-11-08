@@ -38,5 +38,9 @@ public class Manager extends Employee {
         System.out.println("idEmpleado: " + getIdEmpleado() + "\nNombre: " + getNombre() + "\nApellido: " + getApellido() + "\nDocumento: " + getDocumento() + 
                 "\nSalario: " + getSalario() + "\nDepartamento: " + getNombreDepartamento() + "\n");
     }
+    
+     public String toString () {
+        return "Id empleado: " + getIdEmpleado() + "\nNombre: " + getNombre() + "\nApellido: " + getApellido() + "\nDocumento" + getDocumento() + "\nSalario: " + getSalario() + "\nDepartamento: " + nombreDepartamento;
+    }
        
 }

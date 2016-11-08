@@ -64,5 +64,11 @@ public class Employee {
     public double getSalario (){
         return salario;
     }
+    
+    
+    //* Sobrescritura del metodo toString() */
+    public String toString () {
+        return "Id empleado: " + idEmpleado +"\nNombre: " + nombre +"\nApellido: " + apellido + "\nDocumento" + documento + "\nSalario: " + salario;
+    }
      
 }
